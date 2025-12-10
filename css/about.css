@@ -1,0 +1,270 @@
+:root{--primary-color:#FF6B35;--secondary-color:#F7931E;}
+
+body.dark-mode{background:#1a1a1a;color:#eee;transition: .3s;}
+
+.navbar{background:linear-gradient(135deg,var(--primary-color),var(--secondary-color));}
+
+.team-card{transition:.3s;}
+.team-card:hover{transform:translateY(-8px);box-shadow:0 12px 25px rgba(0,0,0,0.2);}
+
+.dark-mode-toggle{
+    position:fixed;
+    top:90px;
+    right:20px;
+}
+
+#scrollTopBtn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    font-size: 22px;
+    border: none;
+    border-radius: 50%;
+    background: var(--primary-color);
+    color: white;
+    display: none;
+    z-index: 999;
+}
+
+header.about-header, 
+header.py-5 {
+    background-color: #f8f9fa !important; 
+    color: #000 !important;  
+    transition: .3s;             
+}
+
+.about-title,
+.about-subtitle {
+    color: #000 !important;
+}
+
+body.dark-mode header.about-header,
+body.dark-mode header.py-5 {
+    background-color: #1a1a1a !important; 
+    color: #fff !important;               
+}
+
+body.dark-mode .about-title,
+body.dark-mode .about-subtitle {
+    color: #fff !important;
+}
+
+ul.mission-list {
+  width: fit-content; 
+  margin: 0 auto;
+}
+
+.team-section {
+    background: #f8f9fa;       
+    color: #000;                
+}
+
+.team-section h2,
+.team-section h4,
+.team-section p {
+    color: #000 !important;
+}
+
+.team-card {
+    background: #ffffff; 
+    border-radius: 15px;
+    border: 1px solid #ddd;
+    transition: .3s;
+}
+
+.team-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.team-card h4,
+.team-card p {
+    color: #000 !important;
+}
+
+body.dark-mode .team-section {
+    background: #1a1a1a !important;
+    color: #fff !important;
+}
+
+body.dark-mode .team-section h2,
+body.dark-mode .team-section h4,
+body.dark-mode .team-section p {
+    color: #fff !important;
+}
+
+body.dark-mode .team-card {
+    background: #242424 !important;
+    border-color: #333 !important;
+}
+
+body.dark-mode .team-card h4,
+body.dark-mode .team-card p {
+    color: #fff !important;
+}
+
+footer {
+    background: #000;
+    color: #fff;
+}
+
+body.dark-mode footer {
+    background: #1a1a1a !important;
+    color: #fff !important;
+    border-top: 1px solid #333;
+}
+
+.custom-footer {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    margin-top: auto;
+}
+
+.footer-links li {
+    margin-bottom: 8px;
+}
+
+.footer-links a {
+    color: #ffffffcc;
+    text-decoration: none;
+    transition: .2s;
+    font-weight: 500;
+}
+
+.footer-links a:hover {
+    color: #fff;
+    padding-left: 6px;
+}
+
+.custom-footer hr {
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+body.dark-mode .custom-footer {
+    background: #1f1f1f !important;
+    color: #fff !important;
+}
+
+body.dark-mode .custom-footer a {
+    color: #ccc !important;
+}
+
+body.dark-mode .custom-footer a:hover {
+    color: var(--primary-color) !important;
+}
+
+.svm-card {
+    background: #ffffff;
+    border-radius: 18px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    transition: 0.25s ease;
+}
+
+.svm-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 26px rgba(0,0,0,0.12);
+}
+
+.svm-list {
+    list-style: disc;
+    padding: 20;
+    margin: 0;
+}
+
+.svm-list li {
+    margin: 8px 0;
+    position: relative;
+    padding-left: 20px;
+    font-weight: 500;
+}
+
+.svm-list li::before {
+    position: absolute;
+    left: 0;
+    font-size: 14px;
+}
+
+body.dark-mode .svm-card {
+    background: #1e1e1e;
+    color: #f0f0f0;
+    box-shadow: 0 8px 20px rgba(255,255,255,0.04);
+}
+
+body.dark-mode .svm-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 26px rgba(255,255,255,0.07);
+}
+
+body.dark-mode .svm-list li {
+    color: #f0f0f0;
+}
+
+body.dark-mode .svm-list li::before {
+    color: #4dabff;
+}
+
+body.dark-mode h2 {
+    color: #f8f9fa;
+}
+
+body.dark-mode h4 {
+    color: #ffffff;
+}
+
+.modal-content {
+    border-radius: 20px;
+    text-align: center;
+    transition: .3s;
+}
+
+body.dark-mode .modal-content {
+    background: #1f1f1f !important;
+    color: #fff !important;
+}
+
+body.dark-mode .btn-primary {
+    background: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+}
+
+body.dark-mode .text-muted {
+    color: #ddd !important;
+}
+
+.team-role {
+    color: #555;
+}
+
+body.dark-mode .team-role {
+    color: #ddd !important; 
+}
+
+.timeline {
+    position: relative;
+    max-width: 400px;
+    margin: auto;
+}
+
+.timeline-item {
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 50px;
+}
+
+.timeline-item .circle {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    background-color: #ff6f61;
+    border-radius: 50%;
+}
+
+.line-vertical {
+    width: 4px;
+    height: 50px;
+    background: #ccc;
+    margin-left: 8px; 
+}
