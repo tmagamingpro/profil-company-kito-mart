@@ -1,6 +1,6 @@
-// DARK MODE
 const toggle = document.getElementById("darkModeToggle");
 const icon = toggle.querySelector("i");
+const scrollTopBtn = document.getElementById("scrollTopBtn");
 
 if(localStorage.getItem("darkMode") === "on"){
     document.body.classList.add("dark-mode");
@@ -18,9 +18,6 @@ toggle.onclick = () => {
         icon.classList.replace("fa-sun","fa-moon");
     }
 };
-
-// SCROLL TOP
-const scrollTopBtn = document.getElementById("scrollTopBtn");
 
 if(scrollTopBtn){
     window.onscroll = () => {
