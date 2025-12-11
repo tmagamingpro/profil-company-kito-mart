@@ -38,6 +38,7 @@ body.dark-mode .footer {
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     transition: .3s;
 }
+
 .service-card:hover {
     transform: translateY(-8px);
     box-shadow: 0 12px 25px rgba(0,0,0,0.2);
